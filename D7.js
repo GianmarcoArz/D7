@@ -87,9 +87,13 @@ console.log(multipliedMap);
 */
 function arraydispari() {
   let multipli1 = [];
-
-  array.forEach((num) => {});
+  for (let i = 1; i < 100; i += 2) {
+    multipli1.push(i);
+  }
+  return multipli1;
 }
+const risultato = arraydispari();
+console.log(risultato);
 
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [
